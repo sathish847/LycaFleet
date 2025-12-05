@@ -8,8 +8,8 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
 					<div className="sidebar-canvas-head">
 						<div className="sidebar-canvas-logo">
 							<Link className="d-flex" href="/">
-								<img className="light-mode" alt="Carento" src="/assets/imgs/template/logo-d.svg" />
-								<img className="dark-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
+								<img className="light-mode" alt="Lycafleet" src="/assets/imgs/template/logo-d.svg" />
+								<img className="dark-mode" alt="Lycafleet" src="/assets/imgs/template/logo-w.svg" />
 							</Link>
 						</div>
 						<div className="sidebar-canvas-lang">
@@ -33,7 +33,7 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
 									</ul>
 								</div>
 							</div>
-							<a className="close-canvas" onClick={handleOffcanvas}> <img alt="Carento" src="/assets/imgs/template/icons/close.png" /></a>
+							<a className="close-canvas" onClick={handleOffcanvas}> <img alt="Lycafleet" src="/assets/imgs/template/icons/close.png" /></a>
 						</div>
 					</div>
 					<div className="sidebar-canvas-content">
@@ -116,7 +116,7 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
 								<p className="address-2 text-md-medium neutral-1000">4517 Washington Ave. <br />Manchester, Kentucky
 									39495</p>
 								<p className="hour-work-2 text-md-medium neutral-1000">Hours: 8:00 - 17:00, Mon - Sat</p>
-								<p className="email-2 text-md-medium neutral-1000">support@carento.com</p>
+								<p className="email-2 text-md-medium neutral-1000">support@lycafleet.com</p>
 							</div>
 						</div>
 					</div>
