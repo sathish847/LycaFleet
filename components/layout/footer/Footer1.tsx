@@ -30,8 +30,7 @@ export default function Footer1() {
 								</Link>
 								<br />
 								<div className="box-info-contact mt-0">
-									<p className="text-md neutral-400 icon-address">2356 Oakwood Drive, Suite 18, San Francisco,
-										California 94111, US</p>
+									<p className="text-md neutral-400 icon-address">42 Jalan Damai Indah, Suite 12, Kuala Lumpur, Wilayah Persekutuan 50450, Malaysia</p>
 									<p className="text-md neutral-400 icon-worktime">Hours: 8:00 - 17:00, Mon - Sat</p>
 									{/* <p className="text-md neutral-400 icon-email">support@carento.com</p> */}
 								</div>
