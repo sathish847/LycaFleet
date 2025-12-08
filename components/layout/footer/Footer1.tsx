@@ -25,9 +25,10 @@ export default function Footer1() {
 						<div className="col-md-3 col-sm-12 footer-1">
 							<div className="mt-20 mb-20">
 								<Link className="d-flex" href="/">
-									<img className="light-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
-									<img className="dark-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
+									<img className="light-mode" alt="Carento" src="/assets/imgs/logo/white.png" width="220" height="85"/>
+									<img className="dark-mode" alt="Carento" src="/assets/imgs/logo/white.png" width="140" height="55"/>
 								</Link>
+								<br />
 								<div className="box-info-contact mt-0">
 									<p className="text-md neutral-400 icon-address">2356 Oakwood Drive, Suite 18, San Francisco,
 										California 94111, US</p>
@@ -36,7 +37,7 @@ export default function Footer1() {
 								</div>
 								<div className="box-need-help">
 									<p className="need-help text-md-medium mb-5">Need help? Call us</p>
-									<br /><Link className="heading-6 phone-support" href="/tel:+1 222-555-33-99">+1 222-555-33-99</Link>
+									<br /><Link className="heading-6 phone-support" href="/tel:+60 12-345-67-89">+60 12-345-67-89</Link>
 								</div>
 							</div>
 						</div>
@@ -69,7 +70,7 @@ export default function Footer1() {
 							<h6 className="text-linear-3">Reach Out Anytime</h6>
 							<ul className="menu-footer">
 								<li><Link href="#">support@Lycafleet.com</Link></li>
-								<li><Link href="#" style={{color:'green',fontWeight:'bolder'}}>++1 222-555-33-99</Link></li>
+								<li><Link href="#" style={{color:'green',fontWeight:'bolder'}}>++60 12-345-67-89</Link></li>
 								
 							</ul>
 						</div>

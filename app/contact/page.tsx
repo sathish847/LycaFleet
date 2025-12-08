@@ -277,8 +277,8 @@ export default function Contact() {
 								<div className="col-lg-6 mb-30">
 									<div className="ps-lg-5">
 										<h4 className="neutral-1000">Our location</h4>
-										<p className="neutral-500 mb-30">12560 Rental Rd, Memphis, TN 38118, United States</p>
-										<iframe className="h-520 rounded-3" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d283661.3575233618!2d2.2296777857951824!3d47.16509219592609!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1712486491620!5m2!1svi!2s" width="100%" height={650} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+										<p className="neutral-500 mb-30">42 Jalan Damai Indah, Suite 12, Kuala Lumpur, Wilayah Persekutuan 50450, Malaysia</p>
+										<iframe className="h-520 rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.4917620048695!2d-89.97939632558172!3d35.069443763340715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f87bc81cc20e5%3A0x69617ae917ee1272!2sRental%20Rd%2C%20Memphis%2C%20TN%2038118%2C%20USA!5e0!3m2!1sen!2sin!4v1765179611035!5m2!1sen!2sin" width="100%" height={650} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
 										</iframe>
 									</div>
 								</div>

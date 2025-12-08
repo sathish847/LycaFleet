@@ -596,7 +596,7 @@ Enjoy complete peace of mind with our meticulously maintained modern fleet — i
 						</div>
 					</section> */}
 					{/* faqs 1 */}
-					<section className="section-box box-faqs background-body pt-0">
+					<section className="section-box box-faqs pt-0" style={{backgroundImage: 'none'}}>
 						<div className="box-faqs-inner">
 							<div className="container">
 								<div className="text-center">
