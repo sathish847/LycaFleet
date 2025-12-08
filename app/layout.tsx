@@ -13,6 +13,9 @@ const urbanist = Urbanist({
 export const metadata: Metadata = {
 	title: "Lycafleet - Premium Car Booking Services",
 	description: "Experience premium car booking services with Lycafleet. Book luxury vehicles for your travel needs with competitive rates and excellent customer service.",
+	icons: {
+		icon: "/assets/imgs/logo/fav.png",
+	},
 	openGraph: {
 		title: "Lycafleet - Premium Car Booking Services",
 		description: "Experience premium car booking services with Lycafleet. Book luxury vehicles for your travel needs with competitive rates and excellent customer service.",
