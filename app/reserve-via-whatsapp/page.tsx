@@ -143,7 +143,7 @@ export default function ReserveViaWhatsApp() {
 										<div className="contact-info">
 											<h6 className="neutral-1000 mb-3">Need Help?</h6>
 											<p className="neutral-500 small mb-2">Call us directly or send us a message</p>
-											<Link href="tel:+60 12-345-67-89" className="text-primary fw-semibold">+60 12-345-67-89</Link>
+											<Link href="/" className="text-primary fw-semibold">+60 12-345-67-89</Link>
 										</div>
 									</div>
 								</div>
