@@ -21,7 +21,7 @@ export default function Review2() {
 					<div className="box-swiper">
 						<Swiper {...swiperGroup1} className="swiper-container swiper-group-1 position-relative">
 							<div className="swiper-wrapper">
-								<SwiperSlide data-aos="fade-up">
+								<SwiperSlide >
 									<div className="item-banner-slide-review d-flex align-items-center rounded-12">
 										<div className="ps-md-5 ps-2 position-relative z-1">
 											<span className="text-primary text-md-bold">SINGAPORE TO MALAYSIA</span>
@@ -39,7 +39,7 @@ export default function Review2() {
 										</div>
 									</div>
 								</SwiperSlide>
-								<SwiperSlide data-aos="fade-up">
+								<SwiperSlide >
 									<div className="item-banner-slide-review banner-3 d-flex align-items-center rounded-12">
 										<div className="ps-md-5 ps-2 position-relative z-1">
 											<span className="text-primary text-md-bold">MALAYSIA TO SINGAPORE</span>
