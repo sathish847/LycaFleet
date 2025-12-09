@@ -90,20 +90,12 @@ export const swiperGroup2 = {
 	},
 }
 export const swiperGroup1 = {
-	modules: [Autoplay, Pagination, Navigation],
+	modules: [Autoplay],
 	slidesPerView: 1,
 	spaceBetween: 50,
 	slidesPerGroup: 1,
 	loop: true,
 	speed: 1200,
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-	pagination: {
-		el: '.swiper-pagination-group-1',
-		clickable: true,
-	},
 	autoplay: {
 		delay: 3000,
 	},

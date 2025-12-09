@@ -10639,11 +10639,11 @@ a.icon-socials:hover svg path {
 }
 
 .box-banner-home7 .item-banner-slide.banner-1 {
-	background: url(../imgs/hero/hero-2/banner-2.png) lightgray 50%/cover no-repeat;
+	background: url(../imgs/hero/hero-2/b-2.jpg) lightgray 50%/cover no-repeat;
 }
 
 .box-banner-home7 .item-banner-slide.banner-2 {
-	background: url(../imgs/hero/hero-2/banner.png) lightgray 50%/cover no-repeat;
+	background: url(../imgs/hero/hero-2/b-1.jpg) lightgray 50%/cover no-repeat;
 }
 
 .box-banner-home7 .item-banner-slide .container {
@@ -13653,4 +13653,51 @@ a.icon-socials:hover svg path {
   color: #000;
   background-color: var(--bs-brand-2) !important;
 }
+/* Custom animations for hero section */
+.animate-fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in-up-delay-1 {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out 0.2s forwards;
+}
+
+.animate-fade-in-up-delay-2 {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out 0.4s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Reset animations for swiper slides */
+.swiper-slide-active .animate-fade-in-up,
+.swiper-slide-active .animate-fade-in-up-delay-1,
+.swiper-slide-active .animate-fade-in-up-delay-2 {
+  animation: none;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.swiper-slide-active .animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.swiper-slide-active .animate-fade-in-up-delay-1 {
+  animation: fadeInUp 0.8s ease-out 0.2s forwards;
+}
+
+.swiper-slide-active .animate-fade-in-up-delay-2 {
+  animation: fadeInUp 0.8s ease-out 0.4s forwards;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -11,7 +11,7 @@ import Cta1 from "@/components/sections/Cta1"
 import Cta2 from "@/components/sections/Cta2"
 import Review2 from "@/components/sections/Review2"
 import Hero2 from "@/components/sections/Hero2"
-import Services1 from "@/components/sections/Services1"
+import Cta6 from "@/components/sections/Cta6"
 import Banners2 from "@/components/sections/Banners2"
 import WhyUs1 from "@/components/sections/WhyUs1"
 import Brand2 from "@/components/sections/Brand2"
@@ -24,6 +24,7 @@ export default function Home() {
 
 			<Layout headerStyle={2} footerStyle={1}>
 				<Hero2 />
+					<Cta6 />
 				{/* <Search1 />
 				<CarsListing1 />
 				<Categories1 />
@@ -40,7 +41,12 @@ export default function Home() {
 				<App />
 				<Brand2 noBg />
 				*/}
+
+				{/* 
 				<Cta1 />
+				*/}
+				
+				
 				<Review2 />
 				<WhyUs1 />
 				<Banners2 />

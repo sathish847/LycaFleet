@@ -9,7 +9,7 @@ export default function Banners2() {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6">
-							<div className="box-banner-1 px-5 position-relative rounded-12 overflow-hidden">
+							<div className="box-banner-1 px-5 position-relative rounded-12 overflow-hidden" data-aos="fade-right">
 								<div className="banner-info position-relative z-1 py-5">
 									<div className="banner-title">
 										<h5 className="text-white">Experience Seamless Cross-Border Travel</h5>
@@ -30,7 +30,7 @@ export default function Banners2() {
 							</div>
 						</div>
 						<div className="col-lg-6">
-							<div className="box-banner-2 px-5 position-relative rounded-12 overflow-hidden mt-lg-0 mt-4">
+							<div className="box-banner-2 px-5 position-relative rounded-12 overflow-hidden mt-lg-0 mt-4" data-aos="fade-left" data-aos-delay="200">
 								<div className="banner-info position-relative z-1 py-5">
 									<div className="banner-title">
 										<h5 className="text-white">Premium Luxury Fleet with 24/7 Customer Support</h5>

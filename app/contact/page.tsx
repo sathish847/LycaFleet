@@ -19,7 +19,7 @@ export default function Contact() {
 						</div>
 					</div>
 					{/*
-					<section className="box-section background-body pt-110">
+					<section classNamel="box-section background-body pt-110">
 						<div className="container">
 							<div className="text-start">
 								<h4 className="neutral-1000">Our agents worldwide</h4>

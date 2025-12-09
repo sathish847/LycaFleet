@@ -2,6 +2,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link"
 import { swiperGroup1 } from '@/util/swiperOptions'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Review2() {
 	return (
@@ -9,7 +11,7 @@ export default function Review2() {
 
 			<section className="background-body pt-80 pb-50">
 				<div className="container">
-					<div className="text-center mb-50">
+					<div className="text-center mb-50" data-aos="fade-up">
 						<span className="text-primary text-md-bold">OUR SERVICES</span>
 						<h3 className="mt-20 mb-20 neutral-1000">
 							What Services We Provide
@@ -19,7 +21,7 @@ export default function Review2() {
 					<div className="box-swiper">
 						<Swiper {...swiperGroup1} className="swiper-container swiper-group-1 position-relative">
 							<div className="swiper-wrapper">
-								<SwiperSlide>
+								<SwiperSlide data-aos="fade-up">
 									<div className="item-banner-slide-review d-flex align-items-center rounded-12">
 										<div className="ps-md-5 ps-2 position-relative z-1">
 											<span className="text-primary text-md-bold">SINGAPORE TO MALAYSIA</span>
@@ -37,7 +39,7 @@ export default function Review2() {
 										</div>
 									</div>
 								</SwiperSlide>
-								<SwiperSlide>
+								<SwiperSlide data-aos="fade-up">
 									<div className="item-banner-slide-review banner-3 d-flex align-items-center rounded-12">
 										<div className="ps-md-5 ps-2 position-relative z-1">
 											<span className="text-primary text-md-bold">MALAYSIA TO SINGAPORE</span>
